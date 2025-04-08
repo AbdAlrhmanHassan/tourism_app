@@ -1,5 +1,4 @@
-import 'dart:developer';
-import 'package:flutter/material.dart';
+ import 'package:flutter/material.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 import '../../../../const.dart';
 
@@ -146,7 +145,7 @@ class AiChatViewState extends State<AiChatView> {
                 },
               ),
             ),
-            Divider(
+          const  Divider(
               height: 0,
             ),
             Container(

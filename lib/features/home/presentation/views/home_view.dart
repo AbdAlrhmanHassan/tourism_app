@@ -75,7 +75,6 @@ class _AiPreferenceBottomSheetState extends State<AiPreferenceBottomSheet> {
 
     // Get AI response
     final response = await model.generateContent(content);
-
     log('AI Answer: ${response.text!}');
     final aiResponse =
         response.text?.trim(); // AI should only give the place name
@@ -89,8 +88,8 @@ class _AiPreferenceBottomSheetState extends State<AiPreferenceBottomSheet> {
           googleMapsUrl: ''),
     );
 
-// Navigate to LocationDetails view if a location is found
     if (location.name != '') {
+      Navigator.pop(context);
       Navigator.push(
         context,
         MaterialPageRoute(
@@ -99,7 +98,6 @@ class _AiPreferenceBottomSheetState extends State<AiPreferenceBottomSheet> {
       );
     } else {
       Navigator.pop(context);
-      // Handle the case where location is null, e.g., show a message to the user
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
           duration: Duration(seconds: 3),
@@ -184,9 +182,9 @@ class _AiPreferenceBottomSheetState extends State<AiPreferenceBottomSheet> {
                       setState(() {});
                       key.currentState!.validate();
                       if (_controller.text.trim().isNotEmpty &&
-                          key.currentState!.validate()) {
-                        _focusNode.unfocus();
-                        _handleUserPreference(_controller.text.trim());
+                      key.currentState!.validate()) {
+                      _focusNode.unfocus();
+                      _handleUserPreference(_controller.text.trim());
                       }
                     },
               child: _isLoading
