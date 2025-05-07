@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 
 import '../../../../const.dart';
+import '../../../../generated/l10n.dart';
 import 'data/model/location_model.dart';
 import 'widgets/home_view_body.dart';
 import 'widgets/location_details.dart';
@@ -15,9 +16,9 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text(
-            'استكشف الأردن',
-            style: TextStyle(fontWeight: FontWeight.bold),
+          title: Text(
+            S.of(context).appBarTitle,
+            style: const TextStyle(fontWeight: FontWeight.bold),
           ),
           actions: [
             IconButton(
@@ -70,7 +71,7 @@ class _AiPreferenceBottomSheetState extends State<AiPreferenceBottomSheet> {
       apiKey: kApiKey,
     );
 
-    final prompt = sendQuestion(preference);
+    final prompt = sendQuestion(preference,context);
     final content = [Content.text(prompt)];
 
     // Get AI response
@@ -78,9 +79,12 @@ class _AiPreferenceBottomSheetState extends State<AiPreferenceBottomSheet> {
     log('AI Answer: ${response.text!}');
     final aiResponse =
         response.text?.trim(); // AI should only give the place name
+            List<LocationModel> locations = getLocations(context);
+
     LocationModel location = locations.firstWhere(
       (loc) => loc.name.contains(aiResponse!),
       orElse: () => LocationModel(
+        locationID:'' ,
           name: '',
           description: '',
           horizontalImageUrl: '',
@@ -127,9 +131,9 @@ class _AiPreferenceBottomSheetState extends State<AiPreferenceBottomSheet> {
           : 250,
       child: Column(
         children: [
-          const Text(
-            'ما الذي تفضله في زيارتك؟',
-            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+          Text(
+            S.of(context).aiBottomSheetTitle,
+            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: 16),
@@ -141,27 +145,27 @@ class _AiPreferenceBottomSheetState extends State<AiPreferenceBottomSheet> {
                 if (value == null || value.isEmpty) {
                   log('Invalid input. Please enter a valid preference.');
 
-                  return 'هذا الحقل مطلوب';
+                  return S.of(context).requiredField;
                 } else if (RegExp(r'^[ا]+$').hasMatch(value)) {
                   log('Invalid input. Please enter a valid preference.');
-                  return 'لا يمكن استخدام هذا القيمة';
+                  return S.of(context).invalidValue;
                 }
                 return null;
               },
               focusNode: _focusNode,
               controller: _controller,
-              decoration: const InputDecoration(
-                focusedBorder: UnderlineInputBorder(
+              decoration: InputDecoration(
+                focusedBorder: const UnderlineInputBorder(
                     borderSide: BorderSide(
                   width: 2,
                   color: primaryColor,
                 )),
-                enabledBorder: UnderlineInputBorder(
+                enabledBorder: const UnderlineInputBorder(
                     borderSide: BorderSide(
                   width: 2,
                   color: primaryColor,
                 )),
-                hintText: 'أدخل ما تفضله (مثال: البحر، الجبال...)',
+                hintText: S.of(context).aiBottomSheetHint,
               ),
             ),
           ),
@@ -182,9 +186,9 @@ class _AiPreferenceBottomSheetState extends State<AiPreferenceBottomSheet> {
                       setState(() {});
                       key.currentState!.validate();
                       if (_controller.text.trim().isNotEmpty &&
-                      key.currentState!.validate()) {
-                      _focusNode.unfocus();
-                      _handleUserPreference(_controller.text.trim());
+                          key.currentState!.validate()) {
+                        _focusNode.unfocus();
+                        _handleUserPreference(_controller.text.trim());
                       }
                     },
               child: _isLoading
@@ -196,8 +200,8 @@ class _AiPreferenceBottomSheetState extends State<AiPreferenceBottomSheet> {
                         strokeWidth: 3,
                       ),
                     )
-                  : const Text('استكشاف',
-                      style: TextStyle(
+                  : Text(S.of(context).exploreButton,
+                      style: const TextStyle(
                         fontSize: 14,
                         fontWeight: FontWeight.bold,
                       )),
@@ -209,8 +213,10 @@ class _AiPreferenceBottomSheetState extends State<AiPreferenceBottomSheet> {
   }
 }
 
-String sendQuestion(String preference) {
+String sendQuestion(String preference,BuildContext context) {
   // Combine all location names into a single string
+      List<LocationModel> locations = getLocations(context);
+
   String places = locations.map((e) => e.name).join(', ');
 
   // Form a coherent question for the AI to answer

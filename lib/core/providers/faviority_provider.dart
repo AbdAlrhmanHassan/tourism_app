@@ -3,17 +3,17 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 
 import '../../features/home/presentation/views/data/model/location_model.dart';
- 
-class FaviorityProvider extends ChangeNotifier {
-  List<LocationModel> faviorityList = [];
 
-  List<LocationModel> get getFaviorityList => faviorityList;
-  void addOrRemoveItemToFaviorityList(LocationModel locationModel) {
-    if (faviorityList.contains(locationModel) == false) {
-      faviorityList.add(locationModel);
+class FaviorityProvider extends ChangeNotifier {
+  List<String> faviorityList = [];
+
+  List<String> get getFavoriteListById => faviorityList;
+  void addOrRemoveItemToFaviorityList(String locationModelId) {
+    if (faviorityList.contains(locationModelId) == false) {
+      faviorityList.add(locationModelId);
       log('added');
     } else {
-      faviorityList.remove(locationModel);
+      faviorityList.remove(locationModelId);
       log('removed');
     }
     log(faviorityList.toString());

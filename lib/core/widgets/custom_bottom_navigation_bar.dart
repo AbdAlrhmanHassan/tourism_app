@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tourism_app/generated/l10n.dart';
 
 import '../../const.dart';
 import '../../features/ai_chat/presentation/views/ai_chat_view.dart';
@@ -64,22 +65,22 @@ class CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
           backgroundColor:
               Colors.white, // Background color of the navigation bar
           type: BottomNavigationBarType.fixed, // Use fixed type for labels
-          items: const [
+          items: [
             BottomNavigationBarItem(
-              icon: Icon(Icons.home),
-              label: 'الرئيسية',
+              icon: const Icon(Icons.home),
+              label: S.of(context).BottomNavigationBarHome,
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.smart_toy),
-              label: 'تحدث',
+              icon: const Icon(Icons.smart_toy),
+              label: S.of(context).BottomNavigationBarAi,
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.favorite),
-              label: 'المفضلة',
+              icon: const Icon(Icons.favorite),
+              label: S.of(context).BottomNavigationBarFaviority,
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.person),
-              label: 'حسابي',
+              icon: const Icon(Icons.settings),
+              label: S.of(context).BottomNavigationBarSettings,
             ),
           ],
         ),

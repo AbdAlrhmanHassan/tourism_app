@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:tourism_app/core/helper_function/get_faviorite_list_by_id.dart';
 
+import '../../../../../const.dart';
 import '../../../../../core/providers/faviority_provider.dart';
 import '../../../../home/presentation/views/data/model/location_model.dart';
 import '../../../../home/presentation/views/widgets/location_card.dart';
@@ -13,11 +15,25 @@ class FaviorityViewBody extends StatefulWidget {
 }
 
 class _FaviorityViewBodyState extends State<FaviorityViewBody> {
+  List<String> faviorityListId = [];
   List<LocationModel> faviorityList = [];
+  List<LocationModel> locations = [];
+
+  @override
+  void didChangeDependencies() {
+    // TODO: implement didChangeDependencies
+    super.didChangeDependencies();
+
+    locations = getLocations(context);
+
+    faviorityList = getFavoriteListById(locations, faviorityListId);
+  }
+
   @override
   void initState() {
-    faviorityList =
-        Provider.of<FaviorityProvider>(context, listen: false).getFaviorityList;
+    faviorityListId = Provider.of<FaviorityProvider>(context, listen: false)
+        .getFavoriteListById;
+
     super.initState();
   }
 
@@ -36,7 +52,7 @@ class _FaviorityViewBodyState extends State<FaviorityViewBody> {
           isFavoriteF: () {
             setState(() {
               faviorityProvider.addOrRemoveItemToFaviorityList(
-                faviorityList[index],
+                faviorityList[index].locationID,
               );
               isFavorite = !isFavorite;
             });

@@ -1,7 +1,8 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
- import 'package:provider/provider.dart';
+import 'package:provider/provider.dart';
+import 'package:tourism_app/generated/l10n.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 import '../../../../../core/providers/faviority_provider.dart';
@@ -27,10 +28,10 @@ class _LocationDetailsState extends State<LocationDetails> {
 
   void getFavoriteStatus() {
     isFavorite = Provider.of<FaviorityProvider>(context, listen: false)
-        .getFaviorityList
+        .getFavoriteListById
         .contains(widget.location);
     log(Provider.of<FaviorityProvider>(context, listen: false)
-        .getFaviorityList
+        .getFavoriteListById
         .toString());
     setState(() {});
   }
@@ -142,7 +143,7 @@ class _LocationDetailsState extends State<LocationDetails> {
                                 width: 20,
                                 height: 20,
                               ),
-                              label: const Text('عرض الموقع على الخريطة'),
+                              label: Text(S.of(context).showOnMap),
                               style: ElevatedButton.styleFrom(
                                 padding: const EdgeInsets.symmetric(
                                     vertical: 10, horizontal: 20),
@@ -167,7 +168,7 @@ class _LocationDetailsState extends State<LocationDetails> {
                                       onPressed: () {
                                         faviorityProvider
                                             .addOrRemoveItemToFaviorityList(
-                                                widget.location);
+                                                widget.location.locationID);
 
                                         setState(() {
                                           isFavorite = !isFavorite;
@@ -182,7 +183,7 @@ class _LocationDetailsState extends State<LocationDetails> {
                                       onPressed: () {
                                         faviorityProvider
                                             .addOrRemoveItemToFaviorityList(
-                                                widget.location);
+                                                widget.location.locationID);
                                         setState(() {
                                           isFavorite = !isFavorite;
                                         });

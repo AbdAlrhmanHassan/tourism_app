@@ -1,0 +1,47 @@
+{
+    "appBarTitle": "Explore Jordan",
+    "aiBottomSheetTitle": "What do you prefer in your visit?",
+    "aiBottomSheetHint": "Enter your preference (e.g., sea, mountains...)",
+    "requiredField": "This field is required",
+    "invalidValue": "This value cannot be used",
+    "exploreButton": "Explore",
+    "noMatchSnackBar": "No matching location found, please try again."
+ ,
+    "showOnMap": "Show on Map",
+
+
+"location_petra_name": "Petra",
+  "location_petra_description": "An ancient city carved into the rock, considered one of the New Seven Wonders of the World. It was the capital of the Nabataeans and is known as the \"Rose City\" due to the color of its stones. Located in southern Jordan, it's one of the most visited tourist sites in the world.",
+
+  "location_deadSea_name": "Dead Sea",
+  "location_deadSea_description": "The lowest point on Earth, known for its salty, mineral-rich waters that make floating effortless. It is believed to have been part of the biblical city of Sodom.",
+
+  "location_ajloun_name": "Ajloun Castle",
+  "location_ajloun_description": "Ajloun Castle is a medieval Islamic fortress located in northwestern Jordan. It's one of the country’s most important historical landmarks and overlooks the Jordan Valley.",
+
+  "location_jerash_name": "Jerash Ruins",
+  "location_jerash_description": "An archaeological city featuring well-preserved Roman ruins. It’s one of the largest Roman cities in the Middle East, including the South Theater, the Oval Plaza, and magnificent Corinthian columns.",
+
+  "location_wadiRum_name": "Wadi Rum",
+  "location_wadiRum_description": "Wadi Rum, known as the Valley of the Moon, is a desert in southern Jordan famous for its dramatic landscapes. It features red sand dunes and towering rock formations, and has served as a filming location for several major movies."
+
+,
+
+    "aiViewTitle": "Talk to AI",
+    "aiWelcomeMessage": "Welcome to the Explore Jordan app! Here you can explore the amazing tourist attractions in Jordan. If you have any questions or need assistance, feel free to ask.",
+    "askAQuestion": "Ask "
+
+  ,
+    "profileViewTitle": "Profile",
+  "darkMode": "Dark Mode",
+  "language": "Language",
+  "aboutApp": "About the App",
+  "appVersion": "Version" ,
+
+    "BottomNavigationBarHome": "Home",
+    "BottomNavigationBarAi": "AI",
+    "BottomNavigationBarFaviority": "Favorites",
+    "BottomNavigationBarSettings": "Settings"
+ 
+}
+  
