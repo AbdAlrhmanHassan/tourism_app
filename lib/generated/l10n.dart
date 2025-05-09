@@ -135,6 +135,16 @@ class S {
     );
   }
 
+  /// `Ma'an`
+  String get location_petra_city {
+    return Intl.message(
+      'Ma\'an',
+      name: 'location_petra_city',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `An ancient city carved into the rock, considered one of the New Seven Wonders of the World. It was the capital of the Nabataeans and is known as the "Rose City" due to the color of its stones. Located in southern Jordan, it's one of the most visited tourist sites in the world.`
   String get location_petra_description {
     return Intl.message(
@@ -150,6 +160,16 @@ class S {
     return Intl.message(
       'Dead Sea',
       name: 'location_deadSea_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Amman`
+  String get location_deadSea_city {
+    return Intl.message(
+      'Amman',
+      name: 'location_deadSea_city',
       desc: '',
       args: [],
     );
@@ -175,6 +195,16 @@ class S {
     );
   }
 
+  /// `Ajloun`
+  String get location_ajloun_city {
+    return Intl.message(
+      'Ajloun',
+      name: 'location_ajloun_city',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Ajloun Castle is a medieval Islamic fortress located in northwestern Jordan. It's one of the country’s most important historical landmarks and overlooks the Jordan Valley.`
   String get location_ajloun_description {
     return Intl.message(
@@ -190,6 +220,16 @@ class S {
     return Intl.message(
       'Jerash Ruins',
       name: 'location_jerash_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Jerash`
+  String get location_jerash_city {
+    return Intl.message(
+      'Jerash',
+      name: 'location_jerash_city',
       desc: '',
       args: [],
     );
@@ -215,11 +255,351 @@ class S {
     );
   }
 
+  /// `Aqaba`
+  String get location_wadiRum_city {
+    return Intl.message(
+      'Aqaba',
+      name: 'location_wadiRum_city',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Wadi Rum, known as the Valley of the Moon, is a desert in southern Jordan famous for its dramatic landscapes. It features red sand dunes and towering rock formations, and has served as a filming location for several major movies.`
   String get location_wadiRum_description {
     return Intl.message(
       'Wadi Rum, known as the Valley of the Moon, is a desert in southern Jordan famous for its dramatic landscapes. It features red sand dunes and towering rock formations, and has served as a filming location for several major movies.',
       name: 'location_wadiRum_description',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Amman`
+  String get location_amman_name {
+    return Intl.message(
+      'Amman',
+      name: 'location_amman_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Amman`
+  String get location_amman_city {
+    return Intl.message(
+      'Amman',
+      name: 'location_amman_city',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Amman is Jordan’s capital and most populous city, blending ancient ruins—like the Neolithic ‘Ain Ghazal site—with modern culture.`
+  String get location_amman_description {
+    return Intl.message(
+      'Amman is Jordan’s capital and most populous city, blending ancient ruins—like the Neolithic ‘Ain Ghazal site—with modern culture.',
+      name: 'location_amman_description',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Aqaba`
+  String get location_aqaba_name {
+    return Intl.message(
+      'Aqaba',
+      name: 'location_aqaba_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Aqaba`
+  String get location_aqaba_city {
+    return Intl.message(
+      'Aqaba',
+      name: 'location_aqaba_city',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Aqaba on the Red Sea offers beach resorts, world‑class snorkeling over coral reefs, plus medieval Ayla ruins.`
+  String get location_aqaba_description {
+    return Intl.message(
+      'Aqaba on the Red Sea offers beach resorts, world‑class snorkeling over coral reefs, plus medieval Ayla ruins.',
+      name: 'location_aqaba_description',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Madaba`
+  String get location_madaba_name {
+    return Intl.message(
+      'Madaba',
+      name: 'location_madaba_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Madaba`
+  String get location_madaba_city {
+    return Intl.message(
+      'Madaba',
+      name: 'location_madaba_city',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Madaba is famed as the “City of Mosaics,” home to the 6th‑century Madaba Map—the oldest cartographic depiction of the Holy Land.`
+  String get location_madaba_description {
+    return Intl.message(
+      'Madaba is famed as the “City of Mosaics,” home to the 6th‑century Madaba Map—the oldest cartographic depiction of the Holy Land.',
+      name: 'location_madaba_description',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Mount Nebo`
+  String get location_mountNebo_name {
+    return Intl.message(
+      'Mount Nebo',
+      name: 'location_mountNebo_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Madaba`
+  String get location_mountNebo_city {
+    return Intl.message(
+      'Madaba',
+      name: 'location_mountNebo_city',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Mount Nebo is the biblical site where Moses viewed the Promised Land before his death, featuring a memorial church and panoramic overlooks.`
+  String get location_mountNebo_description {
+    return Intl.message(
+      'Mount Nebo is the biblical site where Moses viewed the Promised Land before his death, featuring a memorial church and panoramic overlooks.',
+      name: 'location_mountNebo_description',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Dana Biosphere Reserve`
+  String get location_danaBiosphere_name {
+    return Intl.message(
+      'Dana Biosphere Reserve',
+      name: 'location_danaBiosphere_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tafila`
+  String get location_danaBiosphere_city {
+    return Intl.message(
+      'Tafila',
+      name: 'location_danaBiosphere_city',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `The Dana Biosphere Reserve spans rugged highlands to desert, protecting over 800 plant species and offering hiking through dramatic canyons.`
+  String get location_danaBiosphere_description {
+    return Intl.message(
+      'The Dana Biosphere Reserve spans rugged highlands to desert, protecting over 800 plant species and offering hiking through dramatic canyons.',
+      name: 'location_danaBiosphere_description',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Umm Qais`
+  String get location_ummQais_name {
+    return Intl.message(
+      'Umm Qais',
+      name: 'location_ummQais_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Irbid`
+  String get location_ummQais_city {
+    return Intl.message(
+      'Irbid',
+      name: 'location_ummQais_city',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Umm Qais (ancient Gadara) overlooks the Sea of Galilee and is famed for its Hellenistic‑Roman ruins, including a theater and colonnaded streets.`
+  String get location_ummQais_description {
+    return Intl.message(
+      'Umm Qais (ancient Gadara) overlooks the Sea of Galilee and is famed for its Hellenistic‑Roman ruins, including a theater and colonnaded streets.',
+      name: 'location_ummQais_description',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Karak Castle`
+  String get location_karakCastle_name {
+    return Intl.message(
+      'Karak Castle',
+      name: 'location_karakCastle_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Karak`
+  String get location_karakCastle_city {
+    return Intl.message(
+      'Karak',
+      name: 'location_karakCastle_city',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Al‑Karak Castle is a 12th‑century Crusader fortress commanding views of the Dead Sea corridor, with massive walls and towers.`
+  String get location_karakCastle_description {
+    return Intl.message(
+      'Al‑Karak Castle is a 12th‑century Crusader fortress commanding views of the Dead Sea corridor, with massive walls and towers.',
+      name: 'location_karakCastle_description',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Shobak Castle`
+  String get location_shobakCastle_name {
+    return Intl.message(
+      'Shobak Castle',
+      name: 'location_shobakCastle_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ma'an`
+  String get location_shobakCastle_city {
+    return Intl.message(
+      'Ma\'an',
+      name: 'location_shobakCastle_city',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Shobak Castle (Crac de Montréal) was the first Crusader castle built in Transjordan (1115 AD), perched atop a hill with sweeping desert views.`
+  String get location_shobakCastle_description {
+    return Intl.message(
+      'Shobak Castle (Crac de Montréal) was the first Crusader castle built in Transjordan (1115 AD), perched atop a hill with sweeping desert views.',
+      name: 'location_shobakCastle_description',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Wadi Mujib`
+  String get location_wadiMujib_name {
+    return Intl.message(
+      'Wadi Mujib',
+      name: 'location_wadiMujib_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Karak`
+  String get location_wadiMujib_city {
+    return Intl.message(
+      'Karak',
+      name: 'location_wadiMujib_city',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Wadi Mujib is a dramatic river gorge dropping 900 m to the Dead Sea, known for its adventurous Siq Trail canyon hike through waterfalls and pools.`
+  String get location_wadiMujib_description {
+    return Intl.message(
+      'Wadi Mujib is a dramatic river gorge dropping 900 m to the Dead Sea, known for its adventurous Siq Trail canyon hike through waterfalls and pools.',
+      name: 'location_wadiMujib_description',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Jordan Museum`
+  String get location_jordanMuseum_name {
+    return Intl.message(
+      'Jordan Museum',
+      name: 'location_jordanMuseum_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Amman`
+  String get location_jordanMuseum_city {
+    return Intl.message(
+      'Amman',
+      name: 'location_jordanMuseum_city',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `The Jordan Museum in Amman showcases the history and culture of Jordan from ancient to modern times.`
+  String get location_jordanMuseum_description {
+    return Intl.message(
+      'The Jordan Museum in Amman showcases the history and culture of Jordan from ancient to modern times.',
+      name: 'location_jordanMuseum_description',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Qasr Kharana`
+  String get location_qasrKharana_name {
+    return Intl.message(
+      'Qasr Kharana',
+      name: 'location_qasrKharana_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tafila`
+  String get location_qasrKharana_city {
+    return Intl.message(
+      'Tafila',
+      name: 'location_qasrKharana_city',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Qasr Kharana is one of the Umayyad desert castles, located in eastern Jordan and is famous for its unique architectural design.`
+  String get location_qasrKharana_description {
+    return Intl.message(
+      'Qasr Kharana is one of the Umayyad desert castles, located in eastern Jordan and is famous for its unique architectural design.',
+      name: 'location_qasrKharana_description',
       desc: '',
       args: [],
     );

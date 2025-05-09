@@ -1,6 +1,7 @@
 class LocationModel {
   final String locationID;
   final String name;
+  final String cityName;
   final String description;
   final String horizontalImageUrl;
   final String verticallImageUrl;
@@ -9,6 +10,7 @@ class LocationModel {
   LocationModel({
     required this.locationID, // Initialize new field
     required this.name,
+    required this.cityName,
     required this.description,
     required this.horizontalImageUrl,
     required this.verticallImageUrl,

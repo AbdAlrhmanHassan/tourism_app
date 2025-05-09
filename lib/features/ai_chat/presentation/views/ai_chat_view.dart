@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
  import '../../../../const.dart';
+import '../../../../core/utils/secret_key.dart';
 import '../../../../generated/l10n.dart';
 
 // Message data class to distinguish between user and AI messages

@@ -102,15 +102,33 @@ class _LocationDetailsState extends State<LocationDetails> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         // Location name
-                        Text(
-                          widget.location.name,
-                          style: const TextStyle(
-                            fontSize: 28,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.black87,
-                          ),
+                        Row(
+                          crossAxisAlignment: CrossAxisAlignment.end,
+                          children: [
+                            Text(
+                              widget.location.name,
+                              style: const TextStyle(
+                                fontSize: 28,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.black87,
+                              ),
+                            ),
+                            SizedBox(
+                              width: 12,
+                            ),
+                            Text(
+                              widget.location.cityName,
+                              style: const TextStyle(
+                                fontSize: 22,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.black54,
+                              ),
+                            ),
+                          ],
                         ),
-                        const SizedBox(height: 10),
+
+                        const SizedBox(height: 7),
+
                         // Description
                         Text(
                           widget.location.description,

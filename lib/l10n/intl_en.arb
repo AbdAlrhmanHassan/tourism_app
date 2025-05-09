@@ -9,23 +9,72 @@
  ,
     "showOnMap": "Show on Map",
 
-
 "location_petra_name": "Petra",
+  "location_petra_city": "Ma'an",
   "location_petra_description": "An ancient city carved into the rock, considered one of the New Seven Wonders of the World. It was the capital of the Nabataeans and is known as the \"Rose City\" due to the color of its stones. Located in southern Jordan, it's one of the most visited tourist sites in the world.",
 
   "location_deadSea_name": "Dead Sea",
+  "location_deadSea_city": "Amman",
   "location_deadSea_description": "The lowest point on Earth, known for its salty, mineral-rich waters that make floating effortless. It is believed to have been part of the biblical city of Sodom.",
 
   "location_ajloun_name": "Ajloun Castle",
+  "location_ajloun_city": "Ajloun",
   "location_ajloun_description": "Ajloun Castle is a medieval Islamic fortress located in northwestern Jordan. It's one of the country’s most important historical landmarks and overlooks the Jordan Valley.",
 
   "location_jerash_name": "Jerash Ruins",
+  "location_jerash_city": "Jerash",
   "location_jerash_description": "An archaeological city featuring well-preserved Roman ruins. It’s one of the largest Roman cities in the Middle East, including the South Theater, the Oval Plaza, and magnificent Corinthian columns.",
 
   "location_wadiRum_name": "Wadi Rum",
+  "location_wadiRum_city": "Aqaba",
   "location_wadiRum_description": "Wadi Rum, known as the Valley of the Moon, is a desert in southern Jordan famous for its dramatic landscapes. It features red sand dunes and towering rock formations, and has served as a filming location for several major movies."
 
 ,
+
+"location_amman_name": "Amman",
+  "location_amman_city": "Amman",
+  "location_amman_description": "Amman is Jordan’s capital and most populous city, blending ancient ruins—like the Neolithic ‘Ain Ghazal site—with modern culture.",
+
+"location_aqaba_name": "Aqaba",
+  "location_aqaba_city": "Aqaba",
+  "location_aqaba_description": "Aqaba on the Red Sea offers beach resorts, world‑class snorkeling over coral reefs, plus medieval Ayla ruins.",
+
+"location_madaba_name": "Madaba",
+  "location_madaba_city": "Madaba",
+  "location_madaba_description": "Madaba is famed as the “City of Mosaics,” home to the 6th‑century Madaba Map—the oldest cartographic depiction of the Holy Land.",
+
+"location_mountNebo_name": "Mount Nebo",
+  "location_mountNebo_city": "Madaba",
+  "location_mountNebo_description": "Mount Nebo is the biblical site where Moses viewed the Promised Land before his death, featuring a memorial church and panoramic overlooks.",
+
+"location_danaBiosphere_name": "Dana Biosphere Reserve",
+  "location_danaBiosphere_city": "Tafila",
+  "location_danaBiosphere_description": "The Dana Biosphere Reserve spans rugged highlands to desert, protecting over 800 plant species and offering hiking through dramatic canyons.",
+
+"location_ummQais_name": "Umm Qais",
+  "location_ummQais_city": "Irbid",
+  "location_ummQais_description": "Umm Qais (ancient Gadara) overlooks the Sea of Galilee and is famed for its Hellenistic‑Roman ruins, including a theater and colonnaded streets.",
+
+"location_karakCastle_name": "Karak Castle",
+  "location_karakCastle_city": "Karak",
+  "location_karakCastle_description": "Al‑Karak Castle is a 12th‑century Crusader fortress commanding views of the Dead Sea corridor, with massive walls and towers.",
+
+"location_shobakCastle_name": "Shobak Castle",
+  "location_shobakCastle_city": "Ma'an",
+  "location_shobakCastle_description": "Shobak Castle (Crac de Montréal) was the first Crusader castle built in Transjordan (1115 AD), perched atop a hill with sweeping desert views.",
+
+"location_wadiMujib_name": "Wadi Mujib",
+  "location_wadiMujib_city": "Karak",
+  "location_wadiMujib_description": "Wadi Mujib is a dramatic river gorge dropping 900 m to the Dead Sea, known for its adventurous Siq Trail canyon hike through waterfalls and pools."
+,
+
+"location_jordanMuseum_name": "Jordan Museum",
+"location_jordanMuseum_city": "Amman",
+"location_jordanMuseum_description": "The Jordan Museum in Amman showcases the history and culture of Jordan from ancient to modern times.",
+
+"location_qasrKharana_name": "Qasr Kharana",
+"location_qasrKharana_city": "Tafila",
+"location_qasrKharana_description": "Qasr Kharana is one of the Umayyad desert castles, located in eastern Jordan and is famous for its unique architectural design.",
 
     "aiViewTitle": "Talk to AI",
     "aiWelcomeMessage": "Welcome to the Explore Jordan app! Here you can explore the amazing tourist attractions in Jordan. If you have any questions or need assistance, feel free to ask.",
