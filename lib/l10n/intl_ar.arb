@@ -1,0 +1,101 @@
+{
+    "appBarTitle": "استكشف الأردن",
+    "aiBottomSheetTitle": "ما الذي تفضله في زيارتك؟",
+    "aiBottomSheetHint": "أدخل ما تفضله (مثال: البحر، الجبال...)",
+    "requiredField": "هذا الحقل مطلوب",
+    "invalidValue": "لا يمكن استخدام هذا القيمة",
+    "exploreButton": "استكشاف",
+    "noMatchSnackBar": "لم يتم العثور على مكان مطابق، حاول مرة أخرى."
+,
+
+
+    "showOnMap": "عرض الموقع على الخريطة",
+ "location_petra_name": "البتراء",
+"location_petra_city": "معان",
+"location_petra_description": "مدينة أثرية منحوتة في الصخر، تعتبر من عجائب الدنيا السبع الجديدة. كانت عاصمة للأنباط وتُعرف باسم \"المدينة الوردية\" نظراً للون صخورها المميز. تقع في جنوب الأردن وتعتبر من أبرز المواقع السياحية في العالم.",
+
+"location_deadSea_name": "البحر الميت",
+"location_deadSea_city": "العاصمة عمان",
+"location_deadSea_description": "أخفض نقطة على سطح الأرض، ويتميز بمياهه المالحة الغنية بالمعادن، التي تجعل السباحة فيها تجربة فريدة من نوعها. يُعتقد أن المنطقة كانت جزءاً من مدينة سدوم التوراتية.",
+
+"location_ajloun_name": "قلعة عجلون",
+"location_ajloun_city": "عجلون",
+"location_ajloun_description": "قلعة عجلون هي قلعة إسلامية من القرون الوسطى تقع في شمال غرب الأردن. إنها واحدة من أهم المعالم التاريخية في البلاد وتطل على وادي الأردن.",
+
+"location_jerash_name": "آثار جرش",
+"location_jerash_city": "جرش",
+"location_jerash_description": "مدينة أثرية تضم أطلالاً رومانية محفوظة بشكل جيد. تعتبر واحدة من أكبر المدن الرومانية القديمة، وتحتوي على المسرح الجنوبي، الساحة البيضاوية، وأعمدة كورنثية رائعة.",
+
+"location_wadiRum_name": "وادي رم",
+"location_wadiRum_city": "العقبة",
+"location_wadiRum_description": "وادي رم، المعروف بوادي القمر، هو صحراء تقع في جنوب الأردن تتميز بجمالها الطبيعي وتضاريسها الخلابة. يُعرف الوادي برماله الحمراء وجباله الشاهقة، وقد كان موقعاً لتصوير العديد من الأفلام الشهيرة.",
+
+"location_amman_name": "عمان",
+"location_amman_city": "عمان",
+"location_amman_description": "عمان هي عاصمة الأردن وأكثر مدنه اكتظاظًا بالسكان، تجمع بين الآثار القديمة مثل موقع عين غزال الحجري الحديث والثقافة العصرية.",
+
+"location_aqaba_name": "العقبة",
+"location_aqaba_city": "العقبة",
+"location_aqaba_description": "تقدم العقبة على البحر الأحمر منتجعات شاطئية، غطس من الطراز العالمي فوق الشعاب المرجانية، بالإضافة إلى آثار مدينة أيلا medieval.",
+
+"location_madaba_name": "مادبا",
+"location_madaba_city": "مادبا",
+"location_madaba_description": "تشتهر مادبا باسم «مدينة الفسيفساء»، وتحتضن خريطة مادبا من القرن السادس، أقدم خريطة جغرافية للأراضي المقدسة.",
+
+"location_mountNebo_name": "جبل نيبو",
+"location_mountNebo_city": "مادبا",
+"location_mountNebo_description": "جبل نيبو هو الموقع التوراتي الذي نظر منه موسى إلى الأرض الموعودة قبل وفاته، ويضم كنيسة تذكارية وإطلالات بانورامية.",
+
+"location_danaBiosphere_name": "محمية ضانا",
+"location_danaBiosphere_city": "الطفيلة",
+"location_danaBiosphere_description": "تمتد محمية ضانا من المرتفعات الوعرة إلى الصحراء، وتحمي أكثر من 800 نوع نباتي وتوفر مسارات مشي في أودية مذهلة.",
+
+"location_ummQais_name": "أم قيس",
+"location_ummQais_city": "إربد",
+"location_ummQais_description": "تطل أم قيس (غادارة القديمة) على بحر الجليل، وتشتهر بآثارها الهيلينية‑الرومانية، بما في ذلك المسرح والشوارع ذات الأعمدة.",
+
+"location_karakCastle_name": "قلعة الكرك",
+"location_karakCastle_city": "الكرك",
+"location_karakCastle_description": "تعد قلعة الكرك حصنًا صليبيًا من القرن الثاني عشر يطل على ممر البحر الميت، بجدران وأبراج ضخمة.",
+
+"location_shobakCastle_name": "قلعة شوبك",
+"location_shobakCastle_city": "معان",
+"location_shobakCastle_description": "بنيت قلعة شوبك (Crac de Montréal) عام 1115 م، وتقع على تل مع إطلالات صحراوية شاسعة.",
+
+"location_wadiMujib_name": "وادي الموجب",
+"location_wadiMujib_city": "الكرك",
+"location_wadiMujib_description": "يعد وادي الموجب وادٍ دراميّ ينحدر 900 م نحو البحر الميت، ويشتهر بمسار السيق بين الشلالات والبرك."
+
+,
+"location_jordanMuseum_name": "متحف الأردن",
+"location_jordanMuseum_city": "عمان",
+"location_jordanMuseum_description": "متحف الأردن في عمان يعرض تاريخ وثقافة الأردن من العصور القديمة إلى العصر الحديث.",
+
+"location_qasrKharana_name": "قصر الحرانة",
+"location_qasrKharana_city": "الطفيلة",
+"location_qasrKharana_description": "قصر الحرانة هو أحد القصور الصحراوية الأموية، يقع في شرق الأردن ويتميز بتصميمه المعماري الفريد.",
+
+
+"aiViewTitle":"تحدث مع الذكاء الاصطناعي"
+,"aiWelcomeMessage":"مرحبًا بك في تطبيق Explore Jordan! هنا يمكنك استكشاف الأماكن السياحية الرائعة في الأردن. إذا كان لديك أي أسئلة أو تحتاج إلى مساعدة، فلا تتردد في طرحها.",
+ "askAQuestion": "اسأل",
+
+
+
+     "profileViewTitle": "الملف الشخصي",   
+    "darkMode": "الوضع الداكن",
+    "language": "اللغة",
+    "aboutApp": "حول التطبيق",
+    "appVersion": "الإصدار" 
+   
+
+
+    ,
+    "BottomNavigationBarHome": "الصفحة الرئيسية",
+    "BottomNavigationBarAi": "الذكاء الاصطناعي",
+    "BottomNavigationBarFaviority": "المفضلة",
+    "BottomNavigationBarSettings": "الإعدادات"
+     
+    
+}
+  
